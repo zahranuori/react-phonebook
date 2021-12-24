@@ -1,0 +1,35 @@
+.create-contact {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+
+}
+.create-contact__set-inputs {
+    margin: 2rem 0 2rem 0;
+
+}
+.create-contact__set-inputs input{
+    width: 20vw;
+}
+.create-contact__set-inputs-flex {
+    display: flex;
+
+}
+.peraperty-lable{
+    color: #250238;
+}
+.button-create-contact {
+    width: 9rem;
+    height: 2rem;
+    color: #250238;
+    border-color: gainsboro;
+    background-color: darkorange;
+    border-radius: 1rem;
+
+}
+.button-create-contact:hover {
+    background-color: darkslateblue;
+    color: white;
+    font-weight: bold;
+
+}
