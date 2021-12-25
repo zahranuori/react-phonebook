@@ -4,8 +4,21 @@
     margin: 1rem;
 
 }
+.heading-create {
+    font-family: 'Pushster', cursive;
+    text-align: center;
+    color: rebeccapurple;
+
+}
+.img-header {
+    height: 270px;
+    background-repeat: no-repeat;
+    align-items: center;
+
+    background-image: url("../../../public/image/girl.svg");
+}
 .create-contact__set-inputs {
-    margin: 2rem 0 2rem 0;
+    margin: 0.5rem 0 0.5rem 0;
 
 }
 .create-contact__set-inputs input{
@@ -13,18 +26,33 @@
 }
 .create-contact__set-inputs-flex {
     display: flex;
+    flex-direction: column;
+    width: 30%;
+    /*justify-content: start;*/
+    align-items: start;
+    height: 10%;
+
 
 }
 .peraperty-lable{
     color: #250238;
 }
+.inp {
+    /*position: absolute;*/
+    /*right: 0;*/
+    display: inline-block;
+
+
+
+}
 .button-create-contact {
-    width: 9rem;
+    width: 20vw;
     height: 2rem;
     color: #250238;
-    border-color: gainsboro;
+    border-color: gainsboro ;
     background-color: darkorange;
     border-radius: 1rem;
+    margin-top: .7rem;
 
 }
 .button-create-contact:hover {

@@ -1,7 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {ListGroup} from "react-bootstrap";
-import './ConcatList.style.css'
-function ContactList (props) {
+import './Concat.style.css'
+//clean ravesh :D
+    // function Contact({name, family, numberPhone})
+function Contact (props) {
     const {name, family, numberPhone} = props
     return(
         <div className='list-container'>
@@ -15,4 +17,4 @@ function ContactList (props) {
         </div>
     )
 }
-export default ContactList;
+export default Contact;
