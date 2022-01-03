@@ -1,6 +1,6 @@
 import './App.css';
-import ContactList from "./Components/ContactList1/ContactList";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import ContactList from "./Components/ContactList/ContactList";
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import CreateContact from "./Components/CreateContact/CreateContact";
 import ShowContact from "./Components/ShowContact/ShowContact";
 

@@ -2,5 +2,133 @@
     border: 1px solid rebeccapurple;
     padding: 1rem;
     height: 100vh;
-    width: 30vw;
+    width: 25vw;
+}
+.show-card {
+    cursor: pointer;
+}
+.button-change {
+ margin-left: 1rem;
+}
+.btn__delete {
+    width: 45%;
+    height: 2rem;
+    border-radius: 50px;
+    border-color: #cce0ff;
+    background-color: rgba(220, 20, 60, 0.61);
+    color: white;
+    cursor: pointer;
+}
+.btn__update {
+    width: 45%;
+    height: 2rem;
+    border-radius: 50px;
+    border-color: #cce0ff;
+    background-color: rgba(65, 176, 53, 0.61);
+    color: white;
+    cursor: pointer;
+
+}
+.btn__delete:hover{
+    background-color: rgb(220, 20, 60);
+    color: white;
+    font-weight: bold;
+
+}
+.btn__update:hover {
+    background-color: #3a8b2e;
+    color: white;
+    font-weight: bold;
+}
+.update-contact__set-inputs {
+    width: 50%;
+    margin-top: 1rem;
+}
+.button-update-contact{
+    margin-left: 1rem;
+    width: 44%;
+    height: 2rem;
+    margin-top: 1rem;
+    color: #eeeeee;
+    font-weight: bold;
+    background-color: rgba(113, 176, 143, 0.29);
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: inset 18px -18px 36px #89e19c,
+    inset -18px 18px 36px #00fc44;
+}
+.button-update-contact:hover {
+    border-color: rgb(113, 176, 128);
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 80px;
+    background: #049f2b;
+    box-shadow: inset 18px -18px 36px #03641b,
+    inset -18px 18px 36px #05da3b;
+}
+
+.noselect {
+    width: 50%;
+    margin-left: 4.5rem;
+    height: 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: rgb(220, 20, 60);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    background: rgba(230, 34, 34, 0.76);
+}
+
+.noselect, button span {
+    transition: 200ms;
+}
+
+.noselect .text {
+    transform: translateX(35px);
+    color: white;
+    font-weight: bold;
+}
+
+.noselect .icon {
+    position: absolute;
+    border-left: 1px solid rgba(196, 27, 27, 0.65);
+    transform: translateX(110px);
+    height: 2rem;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button svg {
+    width: 15px;
+    fill: #eee;
+}
+
+button:hover {
+    background: rgb(220, 20, 60);;
+}
+
+button:hover .text {
+    color: transparent;
+}
+
+button:hover .icon {
+    width: 150px;
+    border-left: none;
+    transform: translateX(0);
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active .icon svg {
+    transform: scale(0.8);
+}
+.update-contact__set-inputs{
+    margin-left: 1rem;
 }

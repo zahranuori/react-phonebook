@@ -14,8 +14,7 @@
     height: 270px;
     background-repeat: no-repeat;
     align-items: center;
-
-    background-image: url("../../../public/image/girl.svg");
+    background-image: url("../../image/girl.svg");
 }
 .create-contact__set-inputs {
     margin: 0.5rem 0 0.5rem 0;
@@ -59,5 +58,6 @@
     background-color: darkslateblue;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 
 }

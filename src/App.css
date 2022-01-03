@@ -3,10 +3,12 @@
     flex-direction: row;
     gap: 3rem;
     height: 100vh;
+    overflow-y: hidden;
 }
 .contact-list {
     overflow: scroll;
     overflow-x: hidden;
+    width: 20%;
 }
 .contact-list::-webkit-scrollbar {
     background-color: rgba(201, 191, 236, 0.84);

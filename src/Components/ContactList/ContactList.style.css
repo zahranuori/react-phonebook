@@ -1,0 +1,40 @@
+::-webkit-scrollbar {
+    width: 12px;
+
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #bda0ea;
+}
+.search-bar {
+    width: 95%;
+    padding: .5rem;
+    margin: .4rem;
+}
+.btn__search-bar {
+    margin: .5rem;
+    border-radius: 1rem;
+    width: 93%;
+    background-color: rgba(147, 137, 199, 0.8);
+    border-color: gainsboro ;
+    height: 2rem;
+    cursor: pointer;
+}
+.btn__search-bar:hover {
+    color: white;
+    border-color: gainsboro ;
+    background-color: darkorange;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 1100px) {
+    div.contact-list-page {
+
+    }
+}
